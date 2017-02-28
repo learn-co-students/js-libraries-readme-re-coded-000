@@ -1,6 +1,14 @@
 <head>
   <title> JavaScript Madness</title>
+  <script type="text/javascript">
+   function load(){
+     console.log("hi");
+     document.getElementById("hey").style.color = "blue";
+       document.getElementById("hey").style.backgroundColor = "#ccc";
+   }
+  </script>
 </head>
-<body>
+
+<body onload="load()">
   <p id="hey">HEY HEY HEY HEY HEY</p>
 </body>
